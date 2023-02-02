@@ -40,10 +40,10 @@ rm ${DESKTOP_FILE_NAME}.1
 rm ${DESKTOP_FILE_NAME}.2
 
 # Modify Trust metadata on new desktop file
-gio set ${DESKTOP_FILE_NAME} "metadata::trusted" yes
+gio set ${DESKTOP_FILE_NAME} metadata::trusted true
 
 # Set desktop file to execute
-chmod +x ${DESKTOP_FILE_NAME}
+chmod a+x ${DESKTOP_FILE_NAME}
 
 # Make sure .local/bin exists
 mkdir -p ${HOME}/.local/bin
