@@ -23,7 +23,7 @@ git clone https://github.com/jharoian-mchp/mplabx-linux-sudo.git
  Change into the cloned directory and run the script.
 
 ```
-cd mplabx-linux-sudo.git
+cd mplabx-linux-sudo
 ./setup.sh
 ```
 
